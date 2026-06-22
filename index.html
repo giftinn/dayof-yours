@@ -240,8 +240,8 @@ pointer-events:none;
 
 <!-- welcome -->
 <section class="card active">
-<h1>I belong to You</h1>
-<p>Special present For someone i love the most.</p>
+<h1>Hello, mas! this is for you.</h1>
+<p>But you have to unlock it first!</p>
 <button onclick="next()">Unlock</button>
 </section>
 
@@ -282,7 +282,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Between Us in Paris</h1>
+<h1>Happy Birthday</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -384,9 +384,9 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did our story begin?", options:["January","May","March"],correct:1},
-{q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Game","Someone else","You"],correct:2}
+{q:"when is your birthday?", options:["21 july","23 june","24 june"],correct:1},
+{q:"what will i give you for your birthday? ", options:["toys","infinity stone","a thousand of kissess and hugs"],correct:2},
+{q:"who loves you harder?", options:["you","me","Bonbon"],correct:1}
 ];
 
 let currentQ = 0;
@@ -451,7 +451,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2025-05-25T00:00:00");
+    const start = new Date("2001-06-23T00:00:00");
 
     setInterval(()=>{
 
@@ -486,7 +486,21 @@ function revealMemory(el){
     `;
 
     const text = `
-        I love you because you actually put effort into loving me. I love you because nobody has ever given me the love that you have given me and you are the only one that could ever love me this way. I love you because you always make me feel like I am worth something. I love you because you have a nurturing nature and you take care of me, especially on days that I need love the most. I love you because you make me smile when I have almost forgotten how to. I love you because you have a huge and honest heart. I love you and every little detail about you. I love you because you are simply you.
+Happy Birthday to the man i've always cherish ❤️
+
+Happy birthday to the person who makes my world brighter every single day.
+
+Meeting you was one of the most beautiful things that ever happened in my life. You have given me countless reasons to smile, hope, and believe in love in ways I never thought possible. Your presence brings comfort to my hardest days and happiness to my best ones.
+
+Today, I just want you to know how deeply you are loved. Not only for the wonderful things you do, but for who you are—your heart, your kindness, your strength, and the way you make everything feel a little warmer and a little safer.
+
+I wish I could give you everything you deserve, because you deserve so much more than words could ever express. My only wish is that this year brings you endless happiness, good health, beautiful memories, and all the dreams you've been holding close to your heart.
+
+Thank you for loving me, supporting me, and staying by my side through every moment. No matter where life takes us, a part of my heart will always belong to you.
+
+Happy birthday, my love. You are my favorite person, my greatest blessing, and the most beautiful chapter of my life.
+
+I love you today, tomorrow, and in every moment that follows. 
     `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
